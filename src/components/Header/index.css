@@ -1,0 +1,120 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.header-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  padding-left: 52px;
+  padding-right: 52px;
+  width: 90%;
+}
+
+.website-logo {
+  width: 46px;
+  height: 48px;
+}
+
+.hamburger-menu-btn {
+  color: black;
+  background-color: transparent;
+  border: none;
+}
+
+.hamburger-icon {
+  width: 45px;
+  height: 46px;
+}
+
+.home-about-link-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-link-container,
+.about-link-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.navigate-link {
+  text-decoration: none;
+}
+
+.link-text {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* .popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .popup-nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 18px;
+}
+
+.popup-nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+} */
+
+.model-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  flex-grow: 1;
+  padding-top: 46px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  max-width: 1190px;
+  border: none !important;
+}
+
+
+/* .popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+} */
+
+/* .modal-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 458px;
+} */
+
+.close-btn {
+  align-self: flex-end;
+}

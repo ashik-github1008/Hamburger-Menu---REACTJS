@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+.not-found-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found-page-heading {
+  color: #616e7c;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.not-found-img {
+  width: 30%;
+}
